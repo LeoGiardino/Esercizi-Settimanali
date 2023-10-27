@@ -1,0 +1,214 @@
+/* IMPOSTAZIONI GENERALI */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem; /* 16px */
+    line-height: 1.65;
+    color: #393d41;
+}
+
+header div, #schede{
+    padding: 30px;
+}
+
+/* HEADER */
+
+header{
+    background-color: black;
+    
+    margin-bottom:60px;
+}
+
+header div{
+    padding: 50px 30px;
+}
+
+header img{
+    padding-left: 50px;
+}
+
+header div:last-child{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+}
+
+.banner h1, p, #schede div{
+    margin-bottom: 30px;
+}
+
+.banner h1{
+    font-size: 3em;
+    line-height: 1;
+}
+
+.banner p{
+    font-size: 2em;
+}
+
+.banner{
+    padding: 17%;
+    text-align: center;
+    margin-bottom: 220px;
+}
+
+h1, h3, h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #25a2c3;
+    line-height: 1.5;
+    font-size: 1.7em;
+}
+
+header button{
+    background-color: #f04c2f;
+    border: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 15px 30px;
+    font-size: 1.9em;
+}
+
+.container{
+    overflow: hidden;
+    margin-bottom: 220px;
+}
+
+#sinistra{
+    float: left;
+    width: 30%;
+    margin-left: 100px;
+}
+
+#destra{
+    float: right;
+    padding: 40px 0;
+}
+
+/* MAIN */
+
+main article h3{
+    margin-bottom: 15px;
+}
+
+main article p{
+    font-size: 1.2em;
+}
+
+main article img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+/* ELEMENTI NEL MAIN - SECTION */
+#red{
+    background-color: #e22d0e;
+    padding: 100px 30px 100px 30px;
+    margin: 30px 0;
+    text-align: center;
+    margin-bottom: 220px;
+}
+
+section #red p{
+    color: white;
+}
+
+section p:first-child{
+    font-size: 2.8em;
+    font-weight: bold;
+}
+
+section p:nth-child(2){
+    font-style: italic;
+    font-size: 2em;
+}
+
+section p:nth-child(3){
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+section p:last-child{
+    font-size: 1em;
+}
+
+section div img{
+    border-radius: 0;
+}
+
+#schede {
+    
+    margin-bottom: 220px;
+}
+
+#schede div{
+    border: 1px solid #dee1e3;
+    width: 30%;
+    display: inline-block; /* Permette alle immagini di essere allineate orizzontalmente */
+    margin: 0 20px;
+}
+
+#schede h4{
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+#schede p{
+    padding: 10px 30px 40px 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#schede img{
+    width: 100%;
+    height: 370px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #25a2c3;
+    margin-top: 25px;
+}
+
+footer h4{
+    color: white;
+    font-size: 2.3em;
+    padding: 45px 25px 25px 25px;
+    text-align: center;
+}
+
+footer, address a{
+    color: #c8e7f0;
+    display: block;
+    padding: 0 30%;
+    font-size: 1.2em;
+}
+
+footer address p{
+    display: inline;
+}
+
+footer, address a:last-child{
+    text-decoration: none;
+    
+}
+
+footer div{
+    border: 1px solid #c8e7f0;
+    margin: 20px 80px;
+}
+
+footer p{
+    margin-bottom: 0;
+    font-size: 1.3em;
+    padding: 10px 0 60px 0;
+    text-align: center;
+}
+
+footer p a{
+    color: #c8e7f0;
+    
+}
